@@ -66,12 +66,9 @@ int main () {
             printf("jogador vence");
         } else if (escolhaJogador == 3 && escolhaComputador == 2) {
             printf("jogador vence");
-        } else if (escolhaComputador == 1 && escolhaJogador == 3) {
-            printf("computador vence");
-        } else if (escolhaComputador == 2 && escolhaJogador == 1) {
-            printf("computador vence");
-        } else if (escolhaComputador == 3 && escolhaJogador == 2) {
-            printf("computador vence");
+        } else {
+            printf("Jogador perde");
+        }
         break;
         
 
@@ -83,5 +80,5 @@ int main () {
         printf("invalido");
         break;
     }
-    }
 }
+    
